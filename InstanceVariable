@@ -1,0 +1,18 @@
+package com.prac.Day1;
+
+public class instanceVariable {
+	String name;		// instance variable 
+	
+	public instanceVariable() {
+		this.name = "Gaurav vashistha"; // decalariation of instance variable
+	}
+	public static void main(String[] args) {
+		
+		instanceVariable value = new instanceVariable();
+		 System.out.print(value.name);
+	}
+
+}
+
+
+output - Gaurav vashistha
