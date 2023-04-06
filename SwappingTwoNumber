@@ -1,0 +1,14 @@
+package Basic;
+
+public class SwappingTwoNumbers {
+
+	public static void main(String[] args) {
+		int a=2,b=4,temp;
+		System.out.println(a+" "+b);
+		temp=a;
+		a=b;
+		b=temp;
+		System.out.println(a+" "+b);
+	}
+
+}
