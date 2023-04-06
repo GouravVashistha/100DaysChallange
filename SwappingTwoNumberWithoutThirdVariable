@@ -14,6 +14,13 @@ public class SwappingTwoNumberWithoutThirdVariable {
 		a=a*b;
 		b=a/b;
 		a=a/b;
+		//========================third method
+		a=a^b;
+		b=a^b;
+		a=a^b;
+		//=======================Four method
+		
+		b= a+b-(a=b);
 		System.out.println(a+ " "+ b);
 
 	}
