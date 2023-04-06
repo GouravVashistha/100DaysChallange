@@ -5,9 +5,15 @@ public class SwappingTwoNumberWithoutThirdVariable {
 	public static void main(String[] args) {
 		int a=2,b=5;
 		System.out.println(a+ " "+ b);
+		//======================== one method
 		a=a+b;// 2+5=7
 		b=a-b;// 7-5 =2
 		a=a-b;// 7-2 = 5
+		
+		//========================method two
+		a=a*b;
+		b=a/b;
+		a=a/b;
 		System.out.println(a+ " "+ b);
 
 	}
