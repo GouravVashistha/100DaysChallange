@@ -1,7 +1,7 @@
 package Basic;
 
 public class ReverseTheNumber {
-
+// three ways  for reverse string
 	public static void main(String[] args) {
 		int a = 1234;
 		int rev = 0;
@@ -14,6 +14,13 @@ public class ReverseTheNumber {
   // using stringBuffer method
 		StringBuffer sv = new StringBuffer(String.valueOf(a));
 		System.out.println(sv.reverse());
+		
+  // using stringBuilder
+		
+		StringBuilder sb =  new StringBuilder();
+		sb.append(a);
+		System.out.println(sb.reverse());
+		
 	}
 
 }
